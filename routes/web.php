@@ -20,5 +20,6 @@ Route::get('add/{a}/{b}', 'Auth\LoginController@myFunc');
 Route::get('t','Auth\LoginController@t');
 
 Route::get('setS','Home@setSession');
-Route::get('getS','Home@getSession');
+Route::get('getR','Home@getSession');
+
 
